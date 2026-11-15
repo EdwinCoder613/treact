@@ -362,8 +362,8 @@ header .row {
     z-index: 2;
     margin: 8px;
     height: calc(100% - 16px);
-    border-radius: 500px;
-    width: 160px;
+    border-radius: 200px;
+    width: 120px;
     border: none;
     background-color: #6415ff;
     color: #fff;
