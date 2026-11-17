@@ -647,7 +647,7 @@ STEPS ↓
 }
 
 .steps__number {
-    color: #cbd5e0;
+    color: #b8bbbd;
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
@@ -1392,6 +1392,8 @@ MOBILE RESPONSIVENESS ↓
         bottom: -50px;
     }
 
+
+
     h1 {
         font-size: 36px;
         color: #1a202c;
@@ -1520,6 +1522,7 @@ MOBILE RESPONSIVENESS ↓
         max-width: 20rem;
         flex-direction: column;
     }
+
 
     .plans {
         flex-direction: column;
@@ -1746,6 +1749,10 @@ MOBILE RESPONSIVENESS ↓
 
     #steps .section__title {
         margin: 16px 0 0 0;
+    }
+
+    .step {
+        flex-direction: row;
     }
 
     .steps__list {
