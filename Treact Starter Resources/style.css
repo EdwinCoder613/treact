@@ -657,7 +657,10 @@ STEPS ↓
     display: flex;
     flex-direction: column;
     margin-left: 24px;
-    max-width: 320px;
+}
+
+.step {
+    flex-direction: row;
 }
 
 .step__title {
