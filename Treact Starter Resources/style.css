@@ -648,12 +648,12 @@ STEPS ↓
 
 .steps__number {
     color: #b8bbbd;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 1;
 }
 
-.steps__description {
+.step__description {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
@@ -661,6 +661,8 @@ STEPS ↓
 
 .step {
     flex-direction: row;
+    display: flex;
+    align-items: flex-start;
 }
 
 .step__title {
@@ -777,6 +779,12 @@ VALUES ↓
     margin-left: 12px;
     font-size: 20px;
     font-weight: bold;
+    color: #718096;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.6;
     color: #718096;
 }
 
